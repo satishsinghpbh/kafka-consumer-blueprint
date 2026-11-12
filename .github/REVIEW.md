@@ -1,6 +1,6 @@
 # Review rules for kafka-consumer-blueprint
 
-Org baseline applies (secrets, injection, authz, data loss, breaking changes, untested logic, vulnerable deps). Repo-specific rules below.
+Org baseline (OWASP ASVS / NIST SSDF mapped, from the `engineering-standards` plugin) applies: secrets, injection, authz, data loss, breaking changes, untested logic, vulnerable deps. Repo-specific rules below.
 
 ## Blocking
 - A listener that acknowledges a record before processing succeeds, or catches an exception and acknowledges anyway.

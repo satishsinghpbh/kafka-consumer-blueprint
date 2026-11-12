@@ -2,7 +2,7 @@
 
 Spring Boot Kafka consumer reference service (order and payment event listeners, DLT error handling, actuator health and metrics).
 
-Org-wide standards come from the `engineering-standards` Devin plugin; this file adds repo-specific rules. Human contributor guide: `CONTRIBUTING.md`.
+Org-wide standards come from the `engineering-standards` Devin plugin; this file adds repo-specific rules. Review rules: `.github/REVIEW.md`. Human contributor guide: `CONTRIBUTING.md`.
 
 ## Setup
 - Runtime: Java 21, Maven 3.9+, Spring Boot 4.0.x (`pom.xml`)
